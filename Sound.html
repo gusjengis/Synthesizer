@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+</head>
+<body style="background-color: black;">
+    <canvas id="graph" width="0" height="0" style="background-color: black; border:1px solid #ffffff;"></canvas>
+    <div>
+        <span id="functionLabel" style="color: white">Frequency:</span>
+        <input id="formula" type="text" ></input>
+        <span id="typeLabel" style="color: white">Type:</span>
+        <select id="type" class="versionSelect">
+            <optgroup label="Wave Type">
+                <option value="sine">Sine</option>
+                <option value="square">Square</option>
+                <option value="sawtooth">Sawtooth</option>
+                <option value="triangle">Triangle</option>
+              </optgroup>
+        </select>
+        <input type="button" id="clearButton" value="Clear"></input>\
+        <input type="button" id="oscilloscopeButton" value="Oscilloscope"></input>
+    </div>
+<script src="Math.js"></script>
+<script src="Sound.js"></script>
+</body>
+</html>
